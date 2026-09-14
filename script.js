@@ -1,6 +1,6 @@
 function minDate(dates) {
   //write you code here
-	returm Math.min(dates);
+	return Math.min(...dates);
 	
 }
 
