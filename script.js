@@ -1,8 +1,11 @@
 function minDate(dates) {
-  //write you code here
-	//return Math.min(...dates);
-	let exp = Math.Number(dates);
-	return Math.min(exp);
+  let min = dates[0];
+	for(let i=0; i<dates.length; i++){
+		if(dates[i]<min){
+			min = dates[i];
+		}
+	}
+	return min;
 }
 
 // Do not change the code
