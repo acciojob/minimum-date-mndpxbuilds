@@ -1,7 +1,8 @@
 function minDate(dates) {
   //write you code here
-	return Math.min(...dates);
-	
+	//return Math.min(...dates);
+	let exp = Math.Number(dates);
+	return Math.min(exp);
 }
 
 // Do not change the code
